@@ -1,4 +1,6 @@
-const MovingObject = require('../src/moving_object')
 console.log('Webpack is working!')
 
-window.MovingObject = MovingObject
+document.addEventListener('DOMContentLoaded', () => {
+  const canvasEl = document.getElementsById('game-canvas')[0]
+  const ctx = canvasEl.getContext('2d')
+})
